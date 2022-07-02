@@ -1,0 +1,715 @@
+    <!DOCTYPE html>
+<html lang="zh-hant-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Büro Jantzen – Foto & video</title>
+    <!-- CSS slick 輪播圖 -->
+    <link rel="stylesheet" href="./css/slick.css"/>
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <!-- 自訂意CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="cursor" id="cursor"></div><!-- 滑鼠標誌 -->
+    <nav id="ham" class="top_menu_nav hide"><!-- ham menu -->
+        <div class="top_menu_nav_sub_wrapper">
+            <ul class="top_menu_nav_sub top_menu_nav_sub_hide">
+                <li class="top_menu_nav_sub_list"><a id="business" href="./business.html">Business</a> </li>
+                <li class="top_menu_nav_sub_list"><a id="film" href="./film.html">Film</a> </li>
+                <li class="top_menu_nav_sub_list"><a id="creative" href="./creative.html">Creative</a> </li>
+                <li class="top_menu_nav_sub_list"><a id="lifestyle" href="./lifestyle.html">Lifestyle</a> </li>
+                <li class="top_menu_nav_sub_list"><a id="about" href="./about.html">About</a> </li>
+            </ul>
+        </div>
+        <div class="top_menu_nav_footer_wrapper">
+            <ul class="top_menu_nav_footer">
+                <li class="top_menu_nav_footer_list">
+                    <a href="mail@burojantzen.com" class="top_menu_nav_footer_list_link_mail hoverbox_1"><span class="hover_circle01"></span>mail@burojantzen.com</a>
+                </li>
+                <li class="top_menu_nav_footer_list">
+                    <a href="tel:+4570261271" class="top_menu_nav_footer_list_link_tel slash hoverbox_2"><span class="hover_circle02"></span>70 261 271</a>
+                    <a href="tel:+4520716141" class="top_menu_nav_footer_list_link_tel hoverbox_3"><span class="hover_circle03"></span>20 716 141</a>
+                </li>
+                <li class="top_menu_nav_footer_list">
+                    <a href="" class="top_menu_nav_footer_list_link slash hoverbox_4"><span class="hover_circle04"></span>INSTA </a>
+                    <a href="" class="top_menu_nav_footer_list_link hoverbox_5"><span class="hover_circle05"></span>FB</a>
+                </li>
+                <li class="top_menu_nav_footer_list btn_getaway hoverbox_6">
+                    <a href="" class="top_menu_nav_footer_list_link "><sapn class="hover_circle06"></sapn>GETAWAY </a>
+                    <svg class="btn_arrow_getaway"  viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86328 6.96112H9.70623" stroke="#090D14" stroke-width="0.5"/>
+                        <path d="M8.60156 8.2771V8.2771C8.60156 7.55576 9.18251 6.96899 9.90382 6.96178L9.97018 6.96112L9.90456 6.9605C9.18295 6.95369 8.60156 6.36678 8.60156 5.64514V5.64514" stroke="#090D14" stroke-width="0.5"/>
+                        <circle cx="7" cy="7" r="6.75" stroke="#090D14" stroke-width="0.5"/>
+                    </svg>
+                    <a href="" class="top_menu_nav_footer_list_link">BOOK</a>
+                </li>
+            </ul>
+        </div>
+        <div class="top_menu_nav_grid_wrapper business"><!-- business 照片位置 CSS background-position 控制 -->
+            <div class="top_menu_nav_grid_business_img01">
+                <div class="top_menu_nav_grid_animation left_mask"></div><!-- left_mask 控制往左顯示效果 -->
+            </div>
+            <div class="top_menu_nav_grid_business_img02">
+                <div class="top_menu_nav_grid_animation right_mask"></div><!-- right_mask 控制往右顯示效果 -->
+            </div>
+            <div class="top_menu_nav_grid_business_img03">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_business_img04">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_business_img05">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_business_img06">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_business_img07">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_business_img08">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+        </div>
+        <div class="top_menu_nav_grid_wrapper film"><!-- film -->
+            <div class="top_menu_nav_grid_film">
+                <video class="top_menu_nav_grid_film_video" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover">
+                    <source src="./img/menu/film_video01.mp4" type="video/mp4" data-wf-ignore="true">
+                    <source src="./img/menu/film_video01.webm" type="video/webm" data-wf-ignore="true">
+                </video>
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+        </div>
+        <div class="top_menu_nav_grid_wrapper creative"><!-- creative -->
+            <div class="top_menu_nav_grid_creative_img01">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_creative_img02">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_creative_img03">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_creative_img04">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_creative_img05">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_creative_img06">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_creative_img07">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+        </div>
+        <div class="top_menu_nav_grid_wrapper lifestyle"><!-- lifestyle -->
+            <div class="top_menu_nav_grid_lifestyle_img01">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img02">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img03">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img04">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img05">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img06">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img07">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_lifestyle_img08">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+        </div>
+        <div class="top_menu_nav_grid_wrapper about"><!-- about -->
+            <div class="top_menu_nav_grid_about_img01">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_img02">
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_img03">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_img04">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_img05">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_video">
+                <video class="top_menu_nav_grid_about_video01" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover">
+                    <source src="./img/menu/about_video01.mp4" type="video/mp4" data-wf-ignore="true">
+                    <source src="./img/menu/about_video01.webm" type="video/webm" data-wf-ignore="true">
+                </video>
+                <div class="top_menu_nav_grid_animation right_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_img07">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+            <div class="top_menu_nav_grid_about_img08">
+                <div class="top_menu_nav_grid_animation left_mask"></div>
+            </div>
+        </div>
+    </nav>
+    <header id="top_header" class="top_header"><!-- menu -->
+        <div class="top_header_wrapper">
+            <h1 class="top_header_logo">
+                <a href="./index.html" class="top_header_logo_link">BUROJANTZEN</a>
+            </h1>
+        </div>
+        <div class="top_header_menu_wrapper_hoverbox">
+        <div  class="top_header_menu_wrapper"  id="menu">
+            <div class="top_header_menu_btn_wrapper">
+                <a href="javascript: void(0)"  class="top_header_menu_btn_show " id="menu_show">MENU</a>
+                <a href="javascript: void(0)"  class="top_header_menu_btn_close " id="menu_close">CLOSE</a>
+            </div>
+         </div>
+        </div>
+    </header>
+    <main>
+        <section class="home_section01" id="home_section01">
+            <div class="section01_img_grid" id="grid_box"><!-- 散布小圖 -->
+                <div class="section01_grid_img01" id="grid_img01"></div>
+                <div class="section01_grid_img02" id="grid_img02"></div>
+                <div class="section01_grid_img03" id="grid_img03"></div>
+                <div class="section01_grid_img04" id="grid_img04"></div>
+                <div class="section01_grid_img05" id="grid_img05"></div>
+                <div class="section01_grid_img06" id="grid_img06"></div>
+                <div class="section01_grid_img07" id="grid_img07"></div>
+                <div class="section01_grid_img08" id="grid_img08"></div>
+                <div class="section01_grid_img09" id="grid_img09"></div>
+                <div class="section01_grid_img10" id="grid_img10"></div>
+            </div>
+            <div class="section01_mid_wrapper"><!-- 中間大圖 -->
+                <div class="section01_mid_img00 "></div><!-- img00 是手機板圖 -->
+                <div class="section01_mid_img01 hide"></div>
+                <div class="section01_mid_img02 hide"></div>
+                <div class="section01_mid_img03 hide"></div>
+                <div class="section01_mid_img04 hide"></div>
+                <div class="section01_mid_img05 hide"></div>
+                <div class="section01_mid_img06 hide"></div>
+                <div class="section01_mid_img07 hide"></div>
+                <div class="section01_mid_img08 hide"></div>
+                <div class="section01_mid_img09 hide"></div>
+                <div class="section01_mid_img10 hide"></div>
+            </div>
+            <div class="section01_title_wrapper"><!-- 中間大字 -->
+                <h1 class="section01_title01">Buro</h1>
+                <h1 class="section01_title02">Jantzen</h1>
+            </div>
+            <div class="section01_btn_link_wrapper">
+                <a href="#home_section_02">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);"><defs><clipPath id="__lottie_element_2"><path width="100" height="100" d="M0 0 L100 0 L100 100 L0 100 Z" class="ZKKAuWcX_0"></path></clipPath></defs><g clip-path="url(#__lottie_element_2)"><g transform="matrix(2,0,0,2,24,8)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(18,18,18)" stroke-opacity="1" stroke-width="1" d=" M12.843999862670898,1.8890000581741333 C12.843999862670898,9.694000244140625 12.843999862670898,39.03099822998047 12.843999862670898,39.03099822998047" class="ZKKAuWcX_1"></path></g><g opacity="1" transform="matrix(1,0,0,1,12.843000411987305,32.422000885009766)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(18,18,18)" stroke-opacity="1" stroke-width="1" d=" M-9.375,-6.204999923706055 C-4.013000011444092,-4.703000068664551 -0.06499999761581421,0.19300000369548798 -0.007000000216066837,6.0320000648498535 C-0.007000000216066837,6.0320000648498535 0,6.679999828338623 0,6.679999828338623 C0,6.679999828338623 0.006000000052154064,6.038000106811523 0.006000000052154064,6.038000106811523 C0.061000000685453415,0.19699999690055847 4.010000228881836,-4.703000068664551 9.375,-6.204999923706055" class="ZKKAuWcX_2"></path></g></g><g transform="matrix(2,0,0,2,24,8)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(18,18,18)" stroke-opacity="1" stroke-width="1" d="M0 0" class="ZKKAuWcX_3"></path></g><g opacity="1" transform="matrix(1,0,0,1,12.843000411987305,32.422000885009766)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(18,18,18)" stroke-opacity="1" stroke-width="1" d="M0 0" class="ZKKAuWcX_4"></path></g></g></g><style data-made-with="vivus-instant">.ZKKAuWcX_0{stroke-dasharray:400 402;stroke-dashoffset:401;animation:ZKKAuWcX_draw_0 2900ms linear 0ms infinite,ZKKAuWcX_fade 2900ms linear 0ms infinite;}.ZKKAuWcX_1{stroke-dasharray:38 40;stroke-dashoffset:39;animation:ZKKAuWcX_draw_1 2900ms linear 0ms infinite,ZKKAuWcX_fade 2900ms linear 0ms infinite;}.ZKKAuWcX_2{stroke-dasharray:35 37;stroke-dashoffset:36;animation:ZKKAuWcX_draw_2 2900ms linear 0ms infinite,ZKKAuWcX_fade 2900ms linear 0ms infinite;}.ZKKAuWcX_3{stroke-dasharray:0 2;stroke-dashoffset:1;animation:ZKKAuWcX_draw_3 2900ms linear 0ms infinite,ZKKAuWcX_fade 2900ms linear 0ms infinite;}.ZKKAuWcX_4{stroke-dasharray:0 2;stroke-dashoffset:1;animation:ZKKAuWcX_draw_4 2900ms linear 0ms infinite,ZKKAuWcX_fade 2900ms linear 0ms infinite;}@keyframes ZKKAuWcX_draw{100%{stroke-dashoffset:0;}}@keyframes ZKKAuWcX_fade{0%{stroke-opacity:1;}86.20689655172414%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes ZKKAuWcX_draw_0{17.24137931034483%{stroke-dashoffset: 401}40.229885057471265%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes ZKKAuWcX_draw_1{20.114942528735632%{stroke-dashoffset: 39}43.103448275862064%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes ZKKAuWcX_draw_2{22.988505747126435%{stroke-dashoffset: 36}45.97701149425288%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes ZKKAuWcX_draw_3{25.862068965517242%{stroke-dashoffset: 1}48.85057471264368%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes ZKKAuWcX_draw_4{28.735632183908045%{stroke-dashoffset: 1}51.724137931034484%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>                
+                </a>
+            </div>
+            <div class="home_bg_01_wrapper js-smoove_show">
+                <div class="home_bg_01 "></div>
+            <div> 
+        </section>
+        <section class="home_section_02" id="home_section_02">
+            <a href="javascript: void(0)" onClick="delayURL('./business.html',3000)" class="home_section_02_link a_position_left">
+                <div class="home_section_02_left">
+                    <figure class="home_section_02_left_img">
+                        <img src="./img/home/section02_bg_img.jpg" alt="section02_bg_img.jpg"><!-- 轉場底圖 -->
+                    </figure>
+                    <div class="home_section_02_slick_wrapper"><!-- 輪播圖 -->
+                        <ul class="home_section_02_slick">
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img01.jpg" alt="section02_img01.jpg" class="home_section_02_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img02.jpg" alt="section02_img02.jpg" class="home_section_02_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img03.jpg" alt="section02_img03.jpg" class="home_section_02_slick_list_img home_section_02_slick_list_img03_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img04.jpg" alt="section02_img04.jpg" class="home_section_02_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img05.jpg" alt="section02_img05.jpg" class="home_section_02_slick_list_img home_section_02_slick_list_img05_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img06.jpg" alt="section02_img06.jpg" class="home_section_02_slick_list_img home_section_02_slick_list_img06_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img07.jpg" alt="section02_img07.jpg" class="home_section_02_slick_list_img home_section_02_slick_list_img07_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img08.jpg" alt="section02_img08.jpg" class="home_section_02_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img09.jpg" alt="section02_img09.jpg" class="home_section_02_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_02_slick_list">
+                                <figure class="home_section_02_slick_list_img_wrapper">
+                                    <img src="./img/home/section02_img10.jpg" alt="section02_img10.jpg" class="home_section_02_slick_list_img">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript: void(0)" onClick="delayURL('./business.html',3000)" class="home_section_02_link a_position_right">
+                <div class="home_section_02_right">
+                    <div class="js-title_box_fadeout">
+                        <h1 class="home_section_02_title js-smoove_show_ani" data-move-y="50px">Business</h1>
+                    </div>
+                    <div class="home_section_02_sub_wrapper">
+                        <h2 class="home_section_02_sub01 js-smoove_show_ani" data-move-y="50px">STRAMME JAKKESÆT</h2>
+                        <h2 class="home_section_02_sub02 js-smoove_show_ani" data-move-y="50px">SLIPS</h2>
+                        <h2 class="home_section_02_sub03 js-smoove_show_ani" data-move-y="50px">KARISMATISKE VERDENSLEDERE</h2>
+                        <h2 class="home_section_02_sub04 js-smoove_show_ani" data-move-y="50px">cognac-FARVEDE SOFAER</h2>
+                        <h2 class="home_section_02_sub05 js-smoove_show_ani" data-move-y="200px">OG STENHUGGEDE SNABELDYR</h2>
+                    </div>
+                </div>
+                <div class="js-box_fadeout btn_position_right">
+                    <div class="home_section_02_btn_enter_wrapper js-smoove_show" id="arrow02" data-scale="0" >
+                        <svg class="home_section_02_btn_arrow_enter" width="49" height="21" viewBox="0 0 49 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.3448H45.931M37.2414 20.6897C37.2414 15.0192 41.8081 10.4066 47.4783 10.35L48 10.3448L47.4842 10.34C41.8117 10.2864 37.2414 5.67276 37.2414 0" stroke="white"/>
+                            </svg>
+                    </div>
+                </div>
+            </a>
+            <div class="home_bg_02_wrapper js-smoove_show">
+                <div class="home_bg_02 "></div>
+            <div> 
+        </section>
+        <section class="home_section_03" id="home_section_03">
+            <a href="javascript: void(0)" onClick="delayURL('./film.html',3000)" class="home_section_03_link_left a_position_right">
+                <div class="home_section_03_right">
+                    <div class="js-title_box_fadeout">
+                        <h1 class="home_section_03_title js-smoove_show_ani" data-move-y="50px">Film</h1>
+                    </div>
+                    <div class="home_section_03_sub_wrapper">
+                        <h2 class="home_section_03_sub01 js-smoove_show_ani" data-move-y="50px">livlige portrætter</h2>
+                        <h2 class="home_section_03_sub02 js-smoove_show_ani" data-move-y="50px">luksuriøse biler</h2>
+                        <h2 class="home_section_03_sub03 js-smoove_show_ani" data-move-y="50px">storslåede droneskud</h2>
+                        <h2 class="home_section_03_sub04 js-smoove_show_ani" data-move-y="200px">OG NORDISK ATMOSFÆRE</h2>
+                    </div>
+                </div>
+                <div class="js-box_fadeout btn_position_middle">
+                    <div class="home_section_03_btn_enter_wrapper  js-smoove_show" id="arrow03" data-scale="0">
+                        <svg class="home_section_03_btn_arrow_enter" width="49" height="21" viewBox="0 0 49 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.3448H45.931M37.2414 20.6897C37.2414 15.0192 41.8081 10.4066 47.4783 10.35L48 10.3448L47.4842 10.34C41.8117 10.2864 37.2414 5.67276 37.2414 0" stroke="white"/>
+                            </svg>                        
+                    </div>
+                </div>
+            </a>
+            <a href="javascript: void(0)" onClick="delayURL('./film.html',3000)" class="home_section_03_link_right a_position_left">
+                <div class="home_section_03_left">
+                    <video class="top_menu_nav_grid_film_video" autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover">
+                        <source src="./img/home/section03_film.mp4" type="video/mp4" data-wf-ignore="true">
+                        <source src="./img/home/section03_film.webm" type="video/webm" data-wf-ignore="true">
+                    </video>
+                </div>
+            </a>
+            <div class="home_bg_03_wrapper js-smoove_show">
+                <div class="home_bg_03 "></div>
+            <div>         
+            </section>
+        <section class="home_section_04" id="home_section_04">
+            <a href="javascript: void(0)" onClick="delayURL('./creative.html',3000)" class="home_section_04_link a_position_left">
+                <div class="home_section_04_left">
+                    <figure class="home_section_04_left_img">
+                        <img src="./img/home/section04_bg_img.jpg" alt="section04_bg_img.jpg">
+                    </figure>
+                    <div class="home_section_04_slick_wrapper"><!-- 輪播圖 絕對位置更改位置-->
+                        <ul class="home_section_04_slick">
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img01.jpg" alt="section04_img01.jpg" class="home_section_04_slick_list_img"><!--照片寬高-->
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img04.jpg" alt="section04_img02.jpg" class="home_section_04_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img03.jpg" alt="section04_img03.jpg" class="home_section_04_slick_list_img home_section_04_slick_list_img03_position"><!-- 個別更改圖片位置 -->
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img04.jpg" alt="section04_img04.jpg" class="home_section_04_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img05.jpg" alt="section04_img05.jpg" class="home_section_04_slick_list_img home_section_04_slick_list_img05_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img06.jpg" alt="section04_img06.jpg" class="home_section_04_slick_list_img home_section_04_slick_list_img06_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img07.jpg" alt="section04_img07.jpg" class="home_section_04_slick_list_img home_section_04_slick_list_img07_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img08.jpg" alt="section04_img08.jpg" class="home_section_04_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img09.jpg" alt="section04_img09.jpg" class="home_section_04_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_04_slick_list">
+                                <figure class="home_section_04_slick_list_img_wrapper">
+                                    <img src="./img/home/section04_img10.jpg" alt="section04_img10.jpg" class="home_section_04_slick_list_img">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript: void(0)" onClick="delayURL('./creative.html',3000)" class="home_section_04_link a_position_right">
+                <div class="home_section_04_right js-title_box_fadeout">
+                        <h1 class="home_section_04_title js-smoove_show_ani" data-move-y="50px">Creative</h1>
+                    <div class="home_section_04_sub_wrapper">
+                        <h2 class="home_section_04_sub01 js-smoove_show_ani" data-move-y="50px">GLITRENDE PERSONLIGHEDER</h2>
+                        <h2 class="home_section_04_sub02 js-smoove_show_ani" data-move-y="50px">PROVOKATØRER</h2>
+                        <h2 class="home_section_04_sub03 js-smoove_show_ani" data-move-y="50px">SKÆVE KOMPOSITIONER</h2>
+                        <h2 class="home_section_04_sub04 js-smoove_show_ani" data-move-y="200px">FLYVENDE FISK OG store hunde</h2>
+                    </div>
+                </div>
+                <div class="js-box_fadeout btn_position_right">
+                    <div class="home_section_04_btn_enter_wrapper js-smoove_show" id="arrow04" data-scale="0">
+                        <svg class="home_section_04_btn_arrow_enter" width="49" height="21" viewBox="0 0 49 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.3448H45.931M37.2414 20.6897C37.2414 15.0192 41.8081 10.4066 47.4783 10.35L48 10.3448L47.4842 10.34C41.8117 10.2864 37.2414 5.67276 37.2414 0" stroke="#121212"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <div class="home_bg_04_wrapper js-smoove_show">
+                <div class="home_bg_04 "></div>
+            <div>        
+            </section>
+        <section class="home_section_05" id="home_section_05">
+            <a href="javascript: void(0)" onClick="delayURL('./lifestyle.html',3000)" class="home_section_05_link_left a_position_right">
+                <div class="home_section_05_right js-title_box_fadeout">
+                    <h1 class="home_section_05_title js-smoove_show_ani" data-move-y="50px">Lifestyle</h1>
+                    <div class="home_section_05_sub_wrapper">
+                        <h2 class="home_section_05_sub01 js-smoove_show_ani" data-move-y="50px">BEHANDLET EGETRÆ</h2>
+                        <h2 class="home_section_05_sub02 js-smoove_show_ani" data-move-y="50px">mundvandsdrivende kafferistning</h2>
+                        <h2 class="home_section_05_sub03 js-smoove_show_ani" data-move-y="50px">minimalistisk interiør</h2>
+                        <h2 class="home_section_05_sub04 js-smoove_show_ani" data-move-y="200px">og atmosfæriske portrætter</h2>
+                    </div>
+                </div>
+                <div class="js-box_fadeout btn_position_middle">
+                    <div class="home_section_05_btn_enter_wrapper js-smoove_show" id="arrow05" data-scale="0">
+                        <svg class="home_section_05_btn_arrow_enter" width="49" height="21" viewBox="0 0 49 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.3448H45.931M37.2414 20.6897C37.2414 15.0192 41.8081 10.4066 47.4783 10.35L48 10.3448L47.4842 10.34C41.8117 10.2864 37.2414 5.67276 37.2414 0" stroke="white"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript: void(0)" onClick="delayURL('./lifestyle.html',3000)" class="home_section_05_link_right a_position_left">
+                <div class="home_section_05_left">
+                    <figure class="home_section_05_left_img">
+                        <img src="./img/home/section05_bg_img.jpg" alt="section05_bg_img.jpg">
+                    </figure>
+                    <div class="home_section_05_slick_wrapper"><!-- 輪播圖 絕對位置更改位置-->
+                        <ul class="home_section_05_slick">
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img01.jpg" alt="section05_img01.jpg" class="home_section_05_slick_list_img"><!--照片寬高-->
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img02.jpg" alt="section05_img02.jpg" class="home_section_05_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img03.jpg" alt="section05_img03.jpg" class="home_section_05_slick_list_img home_section_05_slick_list_img03_position"><!-- 個別更改圖片位置 -->
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img04.jpg" alt="section05_img04.jpg" class="home_section_05_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img05.jpg" alt="section05_img05.jpg" class="home_section_05_slick_list_img home_section_05_slick_list_img05_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img06.jpg" alt="section05_img06.jpg" class="home_section_05_slick_list_img home_section_05_slick_list_img06_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img07.jpg" alt="section05_img07.jpg" class="home_section_05_slick_list_img home_section_05_slick_list_img07_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img08.jpg" alt="section05_img08.jpg" class="home_section_05_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img09.jpg" alt="section05_img09.jpg" class="home_section_05_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_05_slick_list">
+                                <figure class="home_section_05_slick_list_img_wrapper">
+                                    <img src="./img/home/section05_img10.jpg" alt="section05_img10.jpg" class="home_section_05_slick_list_img">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+            <div class="home_bg_05_wrapper js-smoove_show">
+                <div class="home_bg_05 "></div>
+            <div>        
+            </section>
+        <section class="home_section_06" id="home_section_06">
+            <a href="javascript: void(0)" onClick="delayURL('./about.html',3000)" class="home_section_06_link a_position_left">
+                <div class="home_section_06_left">
+                    <figure class="home_section_06_left_img">
+                        <img src="./img/home/section06_bg_img.gif" alt="section06_bg_img.jpg">
+                    </figure>
+                    <div class="home_section_06_slick_wrapper"><!-- 輪播圖 絕對位置更改位置-->
+                        <ul class="home_section_06_slick">
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img01.jpg" alt="section06_img01.jpg" class="home_section_06_slick_list_img"><!--照片寬高-->
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img02.jpg" alt="section06_img02.jpg" class="home_section_06_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img03.jpg" alt="section06_img03.jpg" class="home_section_06_slick_list_img home_section_06_slick_list_img03_position"><!-- 個別更改圖片位置 -->
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img04.jpg" alt="section06_img04.jpg" class="home_section_06_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img05.jpg" alt="section06_img05.jpg" class="home_section_06_slick_list_img home_section_06_slick_list_img05_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img06.jpg" alt="section06_img06.jpg" class="home_section_06_slick_list_img home_section_06_slick_list_img06_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img07.jpg" alt="section06_img07.jpg" class="home_section_06_slick_list_img home_section_06_slick_list_img07_position">
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img08.jpg" alt="section06_img08.jpg" class="home_section_06_slick_list_img">
+                                </figure>
+                            </li>
+                            <li class="home_section_06_slick_list">
+                                <figure class="home_section_06_slick_list_img_wrapper">
+                                    <img src="./img/home/section06_img09.jpg" alt="section06_img09.jpg" class="home_section_06_slick_list_img">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript: void(0)" onClick="delayURL('./about.html',3000)" class="home_section_06_link a_position_right">
+                <div class="home_section_06_right">
+                    <div class="js-title_box_fadeout">
+                        <h1 class="home_section_06_title js-smoove_show_ani" data-move-y="50px">About</h1>
+                    </div>
+                    <div class="home_section_06_sub_wrapper">
+                        <h2 class="home_section_06_sub01 js-smoove_show_ani" data-move-y="50px">KOM BAG OM HOLDET</h2>
+                        <h2 class="home_section_06_sub02 js-smoove_show_ani" data-move-y="50px">REFERENCER</h2>
+                        <h2 class="home_section_06_sub03 js-smoove_show_ani" data-move-y="50px">VOREs historie</h2>
+                        <h2 class="home_section_06_sub04 js-smoove_show_ani" data-move-y="200px">KUNDER</h2>
+                    </div>
+                </div>
+                <div class="js-box_fadeout btn_position_right">
+                    <div class="home_section_06_btn_enter_wrapper js-smoove_show" id="arrow06" data-scale="0">
+                        <svg class="home_section_06_btn_arrow_enter" width="49" height="21" viewBox="0 0 49 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 10.3448H45.931M37.2414 20.6897C37.2414 15.0192 41.8081 10.4066 47.4783 10.35L48 10.3448L47.4842 10.34C41.8117 10.2864 37.2414 5.67276 37.2414 0" stroke="#121212"/>
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <div class="home_bg_06_wrapper js-smoove_show">
+                <div class="home_bg_06 "></div>
+            <div>
+        </section>
+    </main>
+    <footer class="home_footer">
+        <div class="home_footer_sub_wrapper">
+            <h1 class="home_footer_sub">Foto, video, stort, småt,
+                <br> kunsterisk, personligt, corporate,
+                <br> konceptuelt, enkelt, journalistisk,
+                <br> cinematisk, award-winning? 
+                <br>— Vi har kaffen klar.
+            </h1>
+        </div>
+        <div class="home_bg_footer_wrapper js-smoove_show_footer">
+            <div class="home_bg_footer "></div>
+        </div>
+        <div class="home_footer_link_wrapper">
+            <ul class="home_footer_list_wrapper">
+                <li class="home_footer_list ">
+                    <a href="mail@burojantzen.com" class="home_footer_list_link_mail hoverbox_1"> <span class="hover_circle01"></span>mail@burojantzen.com</a> 
+                </li>
+                <li class="home_footer_list">
+                    <a href="tel:+4570261271" class="home_footer_list_link_tel slash hoverbox_2"><span class="hover_circle02"></span> 70 261271</a>
+                    <a href="tel:+4520716141" class="home_footer_list_link_tel 3 hoverbox_3"><span class="hover_circle03"></span>20 716 141</a>
+                </li>
+                <li class="home_footer_list">
+                    <a href="" class="home_footer_list_link slash hoverbox_4" ><span class="hover_circle04"></span>INSTA </a>
+                    <a href="" class="home_footer_list_link hoverbox_5"><span class="hover_circle05"></span>FB</a>
+                </li>
+                <li class="home_footer_list btn_getaway hoverbox_6">
+                    <a href="" class="home_footer_list_link_btn "> <span class="hover_circle06"></span>GETAWAY </a>
+                    <svg class="btn_arrow_getaway"  viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.86328 6.96112H9.70623" stroke="#090D14" stroke-width="0.5"/>
+                        <path d="M8.60156 8.2771V8.2771C8.60156 7.55576 9.18251 6.96899 9.90382 6.96178L9.97018 6.96112L9.90456 6.9605C9.18295 6.95369 8.60156 6.36678 8.60156 5.64514V5.64514" stroke="#090D14" stroke-width="0.5"/>
+                        <circle cx="7" cy="7" r="6.75" stroke="#090D14" stroke-width="0.5"/>
+                    </svg>
+                    <a href="" class="home_footer_list_link">BOOK</a>
+                </li>
+                <li class="home_footer_list">
+                    <figure class="home_footer_list_img_wrapper">
+                        <img src="./img/home/burojantzen-logo-white.png" alt="burojantzen-logo-white.png" class="home_footer_list_img">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- jQuery原生碼 CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JS slick 輪播圖 -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- smoove js CDN -->
+    <script src="./js/jquery.smoove.js"></script>
+    <!-- 自定義JS -->
+    <script src="./js/myjs.js"></script>
+    <script>
+        /* 圖片隨滑鼠位移位置 */
+    var gimg01 = document.getElementById('grid_img01')
+    var gimg01_W = gimg01.offsetTop;
+    var gimg01_L = gimg01.offsetLeft;
+    var gimg02 = document.getElementById('grid_img02')
+    var gimg02_W = gimg02.offsetTop;
+    var gimg02_L = gimg02.offsetLeft;
+    var gimg03 = document.getElementById('grid_img03')
+    var gimg03_W = gimg03.offsetTop;
+    var gimg03_L = gimg03.offsetLeft;
+    var gimg04 = document.getElementById('grid_img04')
+    var gimg04_W = gimg04.offsetTop;
+    var gimg04_L = gimg04.offsetLeft;
+    var gimg05 = document.getElementById('grid_img05')
+    var gimg05_W = gimg05.offsetTop;
+    var gimg05_L = gimg05.offsetLeft;
+    var gimg06 = document.getElementById('grid_img06')
+    var gimg06_W = gimg06.offsetTop;
+    var gimg06_L = gimg06.offsetLeft;
+    var gimg07 = document.getElementById('grid_img07')
+    var gimg07_W = gimg07.offsetTop;
+    var gimg07_L = gimg07.offsetLeft;
+    var gimg08 = document.getElementById('grid_img08')
+    var gimg08_W = gimg08.offsetTop;
+    var gimg08_L = gimg08.offsetLeft;
+    var gimg09 = document.getElementById('grid_img09')
+    var gimg09_W = gimg09.offsetTop;
+    var gimg09_L = gimg09.offsetLeft;
+    var gimg10 = document.getElementById('grid_img10')
+    var gimg10_W = gimg10.offsetTop;
+    var gimg10_L = gimg10.offsetLeft;
+
+    var cursor = document.getElementById('cursor');
+	var w = cursor.offsetWidth;
+	var h = cursor.offsetHeight;
+	document.addEventListener('mousemove',function (e) {
+        /* 滑鼠位置 */
+		var x = e.clientX;
+		var y = e.clientY;
+		cursor.style.top = y + 'px';
+		cursor.style.left = x + 'px';
+        /* 圖片 */
+        gimg01.style.left =( gimg01_L-x )/10*0.3 + 'px';
+        gimg01.style.top =-( gimg01_W-y )/10*0.3 + 'px';
+
+        gimg02.style.left =( gimg02_L-x )/10*0.3 + 'px';
+        gimg02.style.top =( gimg02_W-y )/10*0.3 + 'px';
+
+        gimg03.style.left =-( gimg03_L-x )/10*0.3 + 'px';
+        gimg03.style.top =-( gimg03_W-y )/10*0.3 + 'px';
+
+        gimg04.style.left =( gimg04_L-x )/10*0.3 + 'px';
+        gimg04.style.top =-( gimg04_W-y )/10*0.3 + 'px';
+
+        gimg05.style.left =( gimg05_L-x )/10*0.3 + 'px';
+        gimg05.style.top =-( gimg05_W-y )/10*0.3 + 'px';
+
+        gimg06.style.left =-( gimg06_L-x )/10*0.3 + 'px';
+        gimg06.style.top =-( gimg06_W-y )/10*0.3 + 'px';
+
+        gimg07.style.left =-( gimg07_L-x )/10*0.3 + 'px';
+        gimg07.style.top =-( gimg07_W-y )/7*0.3 + 'px';
+
+        gimg08.style.left =( gimg08_L-x )/10*0.3 + 'px';
+        gimg08.style.top =-( gimg08_W-y )/10*0.3 + 'px';
+
+        gimg09.style.left =( gimg09_L-x )/10*0.3 + 'px';
+        gimg09.style.top =( gimg09_W-y )/10*0.3 + 'px';
+
+        gimg10.style.left =( gimg10_L-x )/10*0.3 + 'px';
+        gimg10.style.top =( gimg10_W-y )/10*0.3 + 'px';
+	})
+    </script>
+</body>
+</html>
