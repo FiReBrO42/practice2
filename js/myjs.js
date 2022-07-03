@@ -482,4 +482,12 @@ else{
 
                 }
             }
-        }
+        };
+/*  */
+function safariHacks() {
+    let windowsVH = window.innerHeight / 100;
+    document.querySelector('.business_section_01').style.setProperty('--vh', windowsVH + 'px');
+    window.addEventListener('resize', function() {
+        document.querySelector('.business_section_01').style.setProperty('--vh', windowsVH + 'px');
+    });
+};
