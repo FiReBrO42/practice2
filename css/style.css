@@ -2614,40 +2614,45 @@ section {
         font-size: 11vw;
     }
     .home_section_02 {
-        margin-top: 250px;
-        background-color: transparent;
+        margin-top: 0;
+        background-color: var(--business);
+        z-index: 0;
     }
     .home_section_03 {
         padding: 2rem;
-        margin-top: 250px;
-        background-color: transparent;
+        margin-top: 0;
+        background-color: var(--film);
+        z-index: 0;
     }
     .home_section_04 {
-        margin-top: 250px;
-        background-color: transparent;
+        margin-top: 0;
+        background-color: var(--creative);
+        z-index: 0;
     }
     .home_section_05 {
-        margin-top: 250px;
-        background-color: transparent;
+        margin-top: 0;
+        background-color: var(--lifestyle);
+        z-index: 0;
     }
     .home_section_06 {
-        margin-top: 250px;
-        background-color: transparent;
+        margin-top: 0;
+        background-color: var(--about);
+        z-index: 0;
     }
     .home_bg_02_wrapper {
-        display: block;
+        display: none;
     }
     .home_bg_03_wrapper {
-        display: block;
+        display: none;
     }
     .home_bg_04_wrapper {
-        display: block;
+        display: none;
     }
     .home_bg_05_wrapper {
-        display: block;
+        display: none;
     }
     .home_bg_06_wrapper {
-        display: block;
+        display: none;
     }
     /*  */
     .home_section_02_left {
@@ -2988,6 +2993,47 @@ section {
 
 /* RWD桌機1024 */
 @media (min-width:1024px){
+    .home_section_02 {
+        margin-top: 250px;
+        background-color:transparent;
+        z-index: 0;
+    }
+    .home_section_03 {
+        padding: 2rem;
+        margin-top: 250px;
+        background-color: transparent;
+        z-index: 0;
+    }
+    .home_section_04 {
+        margin-top: 250px;
+        background-color:transparent;
+        z-index: 0;
+    }
+    .home_section_05 {
+        margin-top: 250px;
+        background-color:transparent;
+        z-index: 0;
+    }
+    .home_section_06 {
+        margin-top: 250px;
+        background-color:transparent;
+        z-index: 0;
+    }
+    .home_bg_02_wrapper {
+        display: block;
+    }
+    .home_bg_03_wrapper {
+        display: block;
+    }
+    .home_bg_04_wrapper {
+        display: block;
+    }
+    .home_bg_05_wrapper {
+        display: block;
+    }
+    .home_bg_06_wrapper {
+        display: block;
+    }
     .home_section_02_left {
         right: unset;
         width: 100%;
@@ -3405,7 +3451,8 @@ section {
     }
     .business_section01_sub_wrapper {
         left: 3%;
-        top: 84%;
+        top: unset;
+        bottom: calc(1vh + 5%);
     }
     .business_section01_img_02 {
         top: 19%;
@@ -3590,7 +3637,8 @@ section {
     }
     .film_section01_sub_wrapper {
         left: 3%;
-        top: 84%;
+        top: unset;
+        bottom: calc(1vh + 5%);
     }
     .film_section01_video_01_wrapper {
         top: 8%;
@@ -3821,7 +3869,8 @@ section {
     }
     .creative_section01_sub_wrapper {
         left: 3%;
-        top: 84%;
+        top: unset;
+        bottom: calc(1vh + 5%);
     }
     .creative_section01_img_01 {
         top: 8%;
@@ -4025,7 +4074,8 @@ section {
     }
     .lifestyle_section01_sub_wrapper {
         left: 3%;
-        top: 84%;
+        top: unset;
+        bottom: calc(1vh + 5%);
     }
     .lifestyle_section01_img_01 {
         top: 8%;
@@ -4434,7 +4484,8 @@ section {
     }
     .about_section01_sub_wrapper {
         left: 3%;
-        top: 84%;
+        top: unset;
+        bottom: calc(1vh + 5%);
     }
     .about_section01_img_01 {
         top: 8%;
