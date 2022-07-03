@@ -11,7 +11,7 @@
     <!-- 自訂意CSS-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="body_noscroll" @touchmove.prevent>
+<body class="body_noscroll" >
     <div class="cursor" id="cursor"></div>
     <nav id="ham" class="top_menu_nav hide">
         <div class="top_menu_nav_sub_wrapper">
@@ -177,7 +177,7 @@
          </div>
         </div>
     </header>
-    <main class="bg_about" @touchmove.prevent>
+    <main class="bg_about" >
         <div class="click-back" id="back" ></div>
         <div class="click-next" id="next" ></div>        
         <section class="about_section_01" id="about_section_01">
@@ -371,11 +371,7 @@
         const clientHeight=document.body.clientHeight;
         window.scrollBy(0, clientHeight);   
     };
-    document.body.addEventListener('touchmove', function (event) {  
-        if(flag==1){
-        event.preventDefault();
-        }
-        },{passive:false});
+    document.addEventListener('touchmove', event, { passive: false });
     </script>
 </body>
 </html>
