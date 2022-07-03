@@ -92,7 +92,6 @@ if($(window).width() >= 1024){
     });
     $('.home_section_03_link_left').click(function(){
         $('html,body').animate({scrollTop:$('#home_section_03').offset().top}, 800);
-        $('html,body').animate({scrollTop:$('#home_section_03').offset().top}, 800);
         $('.home_section_03_sub_wrapper').addClass('js-txt_fadeout ');
         $('.js-box_fadeout').addClass('js-btn_fadeout');
         $('.home_section_03_left').addClass('js-img_right_fadeout');
@@ -482,8 +481,9 @@ else{
 
                 }
             }
-        };
-/*  */
+        }
+
+/* RWD 手機  網址欄 工具欄高度*/
 function safariHacks() {
     let windowsVH = window.innerHeight / 100;
     document.querySelector('.business_section_01').style.setProperty('--vh', windowsVH + 'px');

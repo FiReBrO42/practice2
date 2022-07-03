@@ -5220,19 +5220,23 @@ section {
 }
 
 
-
-
-
 /* RWD手機 */
 @media (max-width:767px){
-.section_contain , .business_section_01 , .film_section_01 , .creative_section_01 , .lifestyle_section_01 , .about_section_01 , .section_contain02 , .section_contain03 , .section_contain04{
-    height: calc(var(--vh, 1vh) * 100);
-}
-
+    .section_contain , .business_section_01 , .film_section_01 , .creative_section_01 , .lifestyle_section_01 , .about_section_01 , .section_contain02 , .section_contain03 , .section_contain04{
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    .body_noscroll{
+        overflow: hidden;
+        height: calc(var(--vh, 1vh) * 100);
+    }
 }
 /* RWD平板 */
 @media (min-width:768px){
     .section_contain , .business_section_01 , .film_section_01 , .creative_section_01 , .lifestyle_section_01 , .about_section_01 , .section_contain02 , .section_contain03 , .section_contain04{
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    .body_noscroll{
+        overflow: hidden;
         height: calc(var(--vh, 1vh) * 100);
     }
 
@@ -5241,6 +5245,10 @@ section {
 /* RWD桌機1024 */
 @media (min-width:1024px){
     .section_contain , .business_section_01 , .film_section_01 , .creative_section_01 , .lifestyle_section_01 , .about_section_01 , .section_contain02 , .section_contain03 , .section_contain04{
+        height: 100vh;
+    }
+    .body_noscroll{
+        overflow: hidden;
         height: 100vh;
     }
     
