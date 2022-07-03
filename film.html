@@ -250,6 +250,8 @@
             const clientHeight=document.body.clientHeight;
             window.scrollBy(0, clientHeight);   
         };
+        var handler = function(e){e.preventDefault();}
+        document.addEventListener('touchmove', handler, {passive: false});
     </script>
 </body>
 </html>

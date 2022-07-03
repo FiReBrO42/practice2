@@ -3453,7 +3453,7 @@ section {
     .business_section01_sub_wrapper {
         left: 3%;
         top: unset;
-        bottom: calc(1vh + 5%);
+        bottom: calc(1vh + 10%);
     }
     .business_section01_img_02 {
         top: 19%;
@@ -3494,7 +3494,8 @@ section {
     }
     .business_section01_sub_wrapper {
         left: 3%;
-        top: 90%;
+        top: unset;
+        bottom: calc(1vh + 10%);
     }
     .business_section01_img_02 {
         top: 6%;
@@ -3639,7 +3640,7 @@ section {
     .film_section01_sub_wrapper {
         left: 3%;
         top: unset;
-        bottom: calc(1vh + 5%);
+        bottom: calc(1vh + 10%);
     }
     .film_section01_video_01_wrapper {
         top: 8%;
@@ -3699,7 +3700,8 @@ section {
     }
     .film_section01_sub_wrapper {
         left: 5%;
-        top: 90%;
+        top: unset;
+        bottom: calc(1vh + 10%);
     }
     .film_section01_video_01_wrapper {
         top: 1%;
@@ -3871,7 +3873,7 @@ section {
     .creative_section01_sub_wrapper {
         left: 3%;
         top: unset;
-        bottom: calc(1vh + 5%);
+        bottom: calc(1vh + 10%);
     }
     .creative_section01_img_01 {
         top: 8%;
@@ -3921,7 +3923,8 @@ section {
     }
     .creative_section01_sub_wrapper {
         left: 3%;
-        top: 90%;
+        top: unset;
+        bottom: calc(1vh + 10%);
     }
     .creative_section01_img_01 {
         top: 1%;
@@ -4076,7 +4079,7 @@ section {
     .lifestyle_section01_sub_wrapper {
         left: 3%;
         top: unset;
-        bottom: calc(1vh + 5%);
+        bottom: calc(1vh + 10%);
     }
     .lifestyle_section01_img_01 {
         top: 8%;
@@ -4120,7 +4123,8 @@ section {
     }
     .lifestyle_section01_sub_wrapper {
         left: 3%;
-        top: 90%;
+        top: unset;
+        bottom: calc(1vh + 10%);
     }
     .lifestyle_section01_img_01 {
         top: 1%;
@@ -4486,7 +4490,7 @@ section {
     .about_section01_sub_wrapper {
         left: 3%;
         top: unset;
-        bottom: calc(1vh + 5%);
+        bottom: calc(1vh + 10%);
     }
     .about_section01_img_01 {
         top: 8%;
@@ -4556,6 +4560,7 @@ section {
         margin-bottom: 2vh;
     }
     .about_section_contain_02_sub_wrapper {
+        margin-bottom: 3rem;
         width: 80%;
     }
     .section_contain03 {
@@ -4597,6 +4602,10 @@ section {
     .about_section_contain_list_txt_wrapper {
         margin-bottom: 0;
     }
+    .about_section_contain_02_txt {
+        line-height: 12vh;
+        margin-bottom: 1rem;
+    }
 }
 /* RWD平板 */
 @media (min-width:768px){
@@ -4611,7 +4620,8 @@ section {
     }
     .about_section01_sub_wrapper {
         left: 3%;
-        top: 90%;
+        top: unset;
+        bottom: calc(1vh + 10%);
     }
     .about_section01_img_01 {
         top: 1%;
@@ -4661,8 +4671,10 @@ section {
     }
     .about_section_contain_02_txt {
         line-height: 12vh;
+        margin-bottom: unset;
     }
     .about_section_contain_02_sub_wrapper {
+        margin-bottom: unset;
         width: 90%;
     }
     .section_contain03 {
