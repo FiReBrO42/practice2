@@ -371,8 +371,10 @@
         const clientHeight=document.body.clientHeight;
         window.scrollBy(0, clientHeight);   
     };
-        $(window).bind('touchmove',function(e) { 
-            e.preventDefault();});
+    $(window).bind('touchmove',function(e) { 
+        e.preventDefault();
+        return false;
+    });
     </script>
 </body>
 </html>
