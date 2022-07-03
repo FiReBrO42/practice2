@@ -2997,28 +2997,28 @@ section {
     .home_section_02 {
         margin-top: 250px;
         background-color:transparent;
-        z-index: unset;
+        z-index: 0;
     }
     .home_section_03 {
         padding: 2rem;
         margin-top: 250px;
         background-color: transparent;
-        z-index: unset;
+        z-index: 0;
     }
     .home_section_04 {
         margin-top: 250px;
         background-color:transparent;
-        z-index: unset;
+        z-index: 0;
     }
     .home_section_05 {
         margin-top: 250px;
         background-color:transparent;
-        z-index: unset;
+        z-index: 0;
     }
     .home_section_06 {
         margin-top: 250px;
         background-color:transparent;
-        z-index: unset;
+        z-index: 0;
     }
     .home_bg_02_wrapper {
         display: block;
