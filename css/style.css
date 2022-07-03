@@ -2576,7 +2576,8 @@ section {
         align-items: flex-start;
     }
     .home_footer_list_img_wrapper {
-        height: 1.4rem;
+        width: 7rem;
+        height: 100%;
         margin: 1.5rem 0 0.5rem 0;
     }
     .home_footer_list_img {
@@ -2591,9 +2592,9 @@ section {
 /* RWD平板 */
 @media (min-width:768px){
     .home_footer_list_img_wrapper {
-        height: 1.1rem;    
+        width: 9rem;
+        height: 100%;
         margin: unset;
-
     }
     .home_footer_list_img {
         height: 100%;
