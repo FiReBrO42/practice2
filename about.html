@@ -371,11 +371,10 @@
         const clientHeight=document.body.clientHeight;
         window.scrollBy(0, clientHeight);   
     };
-    document.addEventListener('touchmove', function (event) {  
-        if(flag==1){
-        event.preventDefault();
-        }
-        },{passive:false});
+    // 禁止滑动调用
+    const unScoll = () => {
+    document.addEventListener('touchmove', event, { passive: false });
+     };
     </script>
 </body>
 </html>
